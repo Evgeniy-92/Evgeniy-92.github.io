@@ -1,0 +1,169 @@
+@import "./reset.css";
+@import "./settings.css";
+@import "./fonts.css";
+
+.wr-intro {
+    background-image: url("../img/main-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center bottom;
+}
+
+.header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Montserrat-Bold", sans-serif;
+    letter-spacing: -.4px;
+}
+
+.nav ul {
+    display: flex;
+    letter-spacing: 0.3px;
+}
+.nav li {
+    margin-left: 34px;
+    font-size: 14px;
+}
+
+.nav a {
+    color: #fff;
+    font-family: "Montserrat-Regular", sans-serif;
+}
+
+.wr-home {
+    padding-top: 27.6vh;
+}
+
+.wr-home .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wr-home p {
+    color: #fff;
+    font-family: "Montserrat-Regular", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    margin-bottom: 23px;
+}
+
+.wr-home h1 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 52px;
+}
+
+/* WR-SERVICES */
+.wr-services {
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.wr-services .section-title-block {
+    margin-bottom: 73px;
+}
+
+.section-service-block .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    background-color: #fff;
+    border: solid 2px #ddd;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.description {
+    text-align: center;
+    line-height: 24px;
+    
+}
+
+.description h3 {
+    font-family: Montserrat-Regular, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+
+/* WR-ABOUT-US */
+.wr-about-us {
+    background-color: #f8f8f8;
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+
+.wr-about-us .section-title-block {
+    margin-bottom: 67px;
+}
+
+
+.information-block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+
+.information-block p {
+    line-height: 24px;
+}
+
+.information-block .block-right {
+    margin-left: 23px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team h3 {
+    font-family: Montserrat-Regular, sans-serif;
+    text-transform: uppercase;
+    margin-left: 11px;
+    margin-bottom: 13px;
+}
+
+.team h4 {
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+.team .member {
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: #4F8BDF;
+}
+
+.member-photo {
+    margin-bottom: 19px;
+    
+}
